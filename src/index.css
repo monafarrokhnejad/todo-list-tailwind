@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Vazir;
+  src: url("./assets/fonts/Vazir-Light.ttf") format("truetype");
+}
+
+body,
+html {
+  overflow: hidden;
+  direction: rtl;
+  font-family: Vazir;
+}
